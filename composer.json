@@ -26,5 +26,11 @@
     },
     "extra": {
         "bootstrap": "codefellow\\datetimepicker\\Bootstrap"
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/codefellow/yii2-datetimepicker"
+        }
+    ]
 }
