@@ -1,0 +1,35 @@
+{
+    "name": "codefellow/yii2-datetimepicker",
+    "description": "Bootstrap datetimepicker widget for Yii 2, based on Eonasdan/bootstrap-datetimepicker.",
+    "type": "yii2-extension",
+    "keywords": ["codefellow","datetimepicker"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Codefellow",
+            "email": "contact@codefellow.pl"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/codefellow/yii2-datetimepicker"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/codefellow/yii2-datetimepicker"
+    },
+    "autoload": {
+        "psr-4": {
+            "codefellow\\datetimepicker\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "codefellow\\datetimepicker\\Bootstrap"
+    }
+}
