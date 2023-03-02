@@ -1,7 +1,4 @@
-testtitle
 =========
-ta
-
 Installation
 ------------
 
@@ -10,13 +7,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist codefellow/datetimepicker "*"
+php composer.phar require --prefer-dist codefellow/yii2-datetimepicker "*"
 ```
 
 or add
 
 ```
-"codefellow/datetimepicker": "*"
+"codefellow/yii2-datetimepicker": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -24,8 +21,3 @@ to the require section of your `composer.json` file.
 
 Usage
 -----
-
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \codefellow\datetimepicker\AutoloadExample::widget(); ?>```
